@@ -42,10 +42,17 @@
         android:title="@string/advanced_setting">
 
         <CheckBoxPreference
+<<<<<<< HEAD
             android:key="keep_proximity_sensor_on"
             android:title="@string/keep_proximity_sensor_on"
             android:persistent="true"
             android:summary="@string/keep_proximity_sensor_on_sum"/>
+=======
+            android:key="lockscreen_if_call_ends_with_screenoff"
+            android:title="@string/lockscreen_if_call_ends_with_screenoff"
+            android:persistent="false"
+            android:summary="@string/lockscreen_if_call_ends_with_screenoff_sum"/>
+>>>>>>> f881de0... PhoneApp: Option to not lock automatically when a call ends (2/2)
         <CheckBoxPreference
             android:key="button_vibrate_outgoing"
             android:title="@string/vibrate_outgoing"
